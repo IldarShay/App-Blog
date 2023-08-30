@@ -1,63 +1,28 @@
-# Nuxt 3 Minimal Starter
+# Прототип приложения "Мой блог" 
+## • Особенности
+```
+o	Использовано Vue 3 (Composition API), Nuxt 3, TypeScript для разработки приложения.
+o	Для управления состоянием используется Pinia.
+o	Для маршрутизации используется Nuxt.js роутинг.
+o	Данные о статьях хранятся в LocaleStorage.
+o	Минималистичный, аккуратный и функциональный дизайн блога также адаптированный под мобильные устройства.
+```
+### • Ссылка на проект для визуальной оценки: [https://main--spiffy-sfogliatella-215c0b.netlify.app](https://my-blog-appl.netlify.app/)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## •	Страница c постами
+```
+o	Асинхронная загрузка постов с сервера, с выводом постов
+o	Добавление постов вызовом модального окна
+o	Удаление постов
+o	Инпут с поиском по описанию постов
+o	Фильтр по названию поста/по описанию поста.
+o	Пагинация
+o	Анимация при отрисовке постов, сортировке, поиске, удалении, добавлении
+o	Переход на страницу определенного поста
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
+## •	Страница поста
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
+o	Карточка поста с информацией и возможностью перехода в главное состояние
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
